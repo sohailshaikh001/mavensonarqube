@@ -1,9 +1,5 @@
 pipeline {
-    agent{
-      node{
-          label 'mypc'
-        }    
-    }
+    agent any
 	
 
     stages {
